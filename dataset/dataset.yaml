@@ -1,6 +1,6 @@
 train: C:\Reps\PandaFishID\dataset\images\train
 val: C:\Reps\PandaFishID\dataset\images\val
 
-nc: 2
+nc: 3
 
-names: ['Puffer', 'Jaguar']
+names: ['Puffer', 'Jaguar', 'Clown']
