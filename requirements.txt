@@ -4,4 +4,3 @@ ultralytics==8.3.34
 cv2
 math
 yaml
-flask 
