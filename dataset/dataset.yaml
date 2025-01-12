@@ -3,4 +3,7 @@ val: C:\Reps\PandaFishID\dataset\images\val
 
 nc: 3
 
-names: ['Puffer', 'Jaguar', 'Clown']
+names: ['Dichotomyctere nigroviridis - Green Spotted Puffer',
+        'Parachromis managuensis - Jaguar Guapote',
+        'Amphiprioninae - Clown Fish'
+  ]
