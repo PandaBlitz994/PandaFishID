@@ -1,9 +1,12 @@
 from ultralytics import YOLO
 
-yolo = YOLO('yolov8n.pt')
+yolo = YOLO(r".\runs\detect\train14\weights\best.pt")
+# yolo = YOLO('yolov8n.pt')
 yolo.train(
-    data='C:\Reps\PandaFishID\dataset\dataset.yaml',
-    epochs = 3 # epochs = how many itirations the model has
+    data='.\dataset\dataset.yaml',
+    epochs = 30, # epochs = how many itirations the model has
+    batch = 18,
+    optimizer = 'Adam'
 )
 valid_results = yolo.val()
 print(valid_results)

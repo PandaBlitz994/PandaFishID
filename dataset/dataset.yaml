@@ -1,9 +1,15 @@
-train: C:\Reps\PandaFishID\dataset\images\train
-val: C:\Reps\PandaFishID\dataset\images\val
+train: F:\Codes\PandaFishID\dataset\images\train
+val: F:\Codes\PandaFishID\dataset\images\val
 
-nc: 3
+nc: 9
 
 names: ['Dichotomyctere nigroviridis - Green Spotted Puffer',
         'Parachromis managuensis - Jaguar Guapote',
-        'Amphiprioninae - Clown Fish'
+        'Amphiprioninae - Clown Fish', 
+        'Paracanthurus hepatus - Blue Tang', 
+        'Chaetodontidae - Butterflyfish', 
+        'Zanclus cornutus - Moorish Idol', 
+        'Paracheirodon innesi - Neon Tetra', 
+        'Plectorhinchus polytaenia - Ribboned Sweetlips', 
+        'Zebrasoma flavescens - Yellow Tang'
   ]
