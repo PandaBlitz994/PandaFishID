@@ -10,7 +10,7 @@ cap = cv2.VideoCapture(1)
 cap.set(3, 1980)
 cap.set(4, 1080)
 
-trained_model = YOLO(r'runs\detect\train14\weights\best.pt')
+trained_model = YOLO(r'runs\detect\train27\weights\last.pt')
 
 with open(r"dataset/dataset.yaml", "r") as file:
     data = yaml.safe_load(file)
@@ -62,9 +62,6 @@ while True:
     cv2.imshow('Webcam', img)
     if cv2.waitKey(1) == ord('q'):
         break
-    
-    
-    
 
 cap.release()
 cv2.destroyAllWindows()
