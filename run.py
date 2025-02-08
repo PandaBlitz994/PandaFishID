@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 import math 
 
-trained_model = YOLO(r'runs\detect\train14\weights\best.pt')
+trained_model = YOLO(r'runs\detect\train28\weights\best.pt')
 
 classNames = ["Clown Fish", "Jaguer Gapote", "puffer"]
 

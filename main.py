@@ -3,14 +3,14 @@ from ultralytics import YOLO
 import yaml
 import math
 
-confidenceMin = 0.65 # 0.5 = 50%, thats the minimum confidunce for a detection to happen.
-NewFishMin = 0.15
+confidenceMin = 0.80 # 0.5 = 50%, thats the minimum confidunce for a detection to happen.
+NewFishMin = 0.25
 
 cap = cv2.VideoCapture(1)
 cap.set(3, 1980)
 cap.set(4, 1080)
 
-trained_model = YOLO(r'runs\detect\train27\weights\last.pt')
+trained_model = YOLO(r'runs\detect\train28\weights\last.pt')
 
 with open(r"dataset/dataset.yaml", "r") as file:
     data = yaml.safe_load(file)
@@ -34,7 +34,7 @@ while True:
 
         # confidence
         confidence = math.ceil((box.conf[0]*100))/100
-        if confidence < confidenceMin and confidence > NewFishMin:
+        if confidence < 0.4 and confidence > NewFishMin:
             org = [x1, y1 - 10]  # Position text slightly above the bounding box
             font = cv2.FONT_HERSHEY_SIMPLEX
             fontScale = 1

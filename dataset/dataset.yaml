@@ -3,13 +3,13 @@ val: F:\Codes\PandaFishID\dataset\images\val
 
 nc: 9
 
-names: ['Dichotomyctere nigroviridis - Green Spotted Puffer',
-        'Parachromis managuensis - Jaguar Guapote',
-        'Amphiprioninae - Clown Fish', 
-        'Paracanthurus hepatus - Blue Tang', 
-        'Chaetodontidae - Butterflyfish', 
-        'Zanclus cornutus - Moorish Idol', 
-        'Paracheirodon innesi - Neon Tetra', 
-        'Plectorhinchus polytaenia - Ribboned Sweetlips', 
-        'Zebrasoma flavescens - Yellow Tang'
+names: ['Green Spotted Puffer',
+        'Jaguar Guapote',
+        'Clown Fish', 
+        'Blue Tang', 
+        'Butterflyfish', 
+        'Moorish Idol', 
+        'Neon Tetra', 
+        'Ribboned Sweetlips', 
+        'Yellow Tang'
   ]
