@@ -1,5 +1,5 @@
-train: F:\Codes\PandaFishID\dataset\images\train
-val: F:\Codes\PandaFishID\dataset\images\val
+train: C:\Reps\PandaFishID\dataset\images\train
+val: C:\Reps\PandaFishID\dataset\images\val
 
 nc: 9
 

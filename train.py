@@ -1,10 +1,10 @@
 from ultralytics import YOLO
 
-yolo = YOLO(r".\runs\detect\train27\weights\best.pt")
+yolo = YOLO(r".\runs\detect\train28\weights\last.pt")
 # yolo = YOLO('yolov8n.pt')
 yolo.train(
     data='.\dataset\dataset.yaml',
-    epochs = 66, # epochs = how many itirations the model has
+    epochs = 1, # epochs = how many itirations the model will do
     batch = 18,
     optimizer = 'Adam'
 )
